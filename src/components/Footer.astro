@@ -18,20 +18,28 @@ const today = new Date();
     </div>
   </div>
   <div class="container legal">
-    &copy; {today.getFullYear()} {SITE_TITLE}. Made with oat milk. All rights reserved.
+    &copy; {today.getFullYear()} {SITE_TITLE}. All rights reserved.
   </div>
 </footer>
 
 <style>
   footer {
-    margin-top: 4rem;
-    background: var(--lilac-soft);
-    border-top: 1.5px dashed var(--lilac);
+    margin-top: 5rem;
+    background: var(--tint);
+    border-top: 1px solid var(--line);
     color: var(--ink);
-    padding: 2.5rem 0 1.5rem;
+    padding: 3rem 0 1.75rem;
   }
-  footer strong { font-family: var(--font-display); font-size: 1.15rem; }
-  footer p { color: var(--ink-soft); margin: 0.3rem 0 0; }
+  footer strong {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 1.15rem;
+  }
+  footer p {
+    color: var(--ink-soft);
+    font-style: italic;
+    margin: 0.35rem 0 0;
+  }
   .inner {
     display: flex;
     justify-content: space-between;
@@ -39,21 +47,24 @@ const today = new Date();
     gap: 1.5rem;
     flex-wrap: wrap;
   }
-  .social { display: flex; gap: 1.25rem; }
+  .social { display: flex; gap: 1.75rem; }
   .social a {
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
-    color: var(--ink);
+    font-family: var(--font-label);
+    font-size: 0.72rem;
     font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink);
     text-decoration: none;
   }
-  .social a:hover { color: var(--rose-deep); }
+  .social a:hover { color: var(--clay); }
   .legal {
-    margin-top: 2rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid rgba(64, 57, 74, 0.12);
-    font-family: var(--font-mono);
-    font-size: 0.78rem;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+    font-family: var(--font-label);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
     color: var(--ink-soft);
   }
 </style>

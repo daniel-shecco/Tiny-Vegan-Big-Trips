@@ -22,7 +22,7 @@ const posts = (await getCollection('blog'))
       <section class="hero">
         <div class="container">
           <span class="eyebrow">Vegan family travel, field-tested</span>
-          <h1>Small human.<br />Big appetite for the world.</h1>
+          <h1>Small human.<br /><em>Big appetite</em> for the world.</h1>
           <p class="lede">
             Honest guides to traveling with a vegan toddler — where to eat,
             what to pack, which cities make it easy, and where to find a
@@ -37,7 +37,7 @@ const posts = (await getCollection('blog'))
 
       <section class="section">
         <div class="container">
-          <h2>Latest guides</h2>
+          <span class="eyebrow">Latest guides</span>
           <div class="grid">
             {
               posts.map((post) => (
@@ -77,32 +77,33 @@ const posts = (await getCollection('blog'))
 
 <style>
   .hero {
-    padding: 4.5rem 0 3.5rem;
-    background:
-      radial-gradient(600px 300px at 85% 20%, rgba(185, 170, 222, 0.28), transparent),
-      radial-gradient(500px 260px at 10% 85%, rgba(215, 236, 223, 0.9), transparent),
-      radial-gradient(400px 220px at 60% 100%, rgba(232, 164, 164, 0.18), transparent);
+    padding: 5.5rem 0 4.5rem;
+    border-bottom: 1px solid var(--line);
   }
+  .hero em { color: var(--clay); }
   .lede {
-    max-width: 560px;
-    font-size: 1.15rem;
+    max-width: 540px;
+    font-size: 1.12rem;
     color: var(--ink-soft);
-    margin-top: 1rem;
+    margin-top: 1.25rem;
   }
   .cta {
     display: flex;
     align-items: center;
-    gap: 1.25rem;
-    margin-top: 1.75rem;
+    gap: 1.5rem;
+    margin-top: 2rem;
   }
   .ghost {
+    font-family: var(--font-label);
+    font-size: 0.78rem;
     font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
     text-decoration: none;
   }
   .card img {
-    border-radius: 0;
     width: 100%;
     object-fit: cover;
-    aspect-ratio: 40 / 21;
+    aspect-ratio: 3 / 2;
   }
 </style>

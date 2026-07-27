@@ -1,24 +1,19 @@
 /*
   Tiny Vegan, Big Trips — global styles
-  Pastel zine feel: warm paper, blush + lilac + mint + butter,
-  monospace labels, soft plum ink. Gently askew on purpose.
+  Quiet editorial feel: warm paper, near-black ink, one clay accent.
+  Serif body, letterspaced sans labels, hairlines and whitespace.
 */
 :root {
-  --paper: #fdf9f3;
-  --ink: #40394a;
-  --ink-soft: #877f91;
-  --rose: #e8a4a4;
-  --rose-deep: #c97f7f;
-  --lilac: #b9aade;
-  --lilac-soft: #eae4f7;
-  --mint: #d7ecdf;
-  --butter: #fbeecb;
-  --card: #ffffff;
-  --line: #eee2dc;
-  --radius: 18px;
-  --font-body: 'Avenir Next', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --paper: #faf8f4;
+  --tint: #f1ede5;
+  --ink: #211e1a;
+  --ink-soft: #7d776c;
+  --clay: #9a6b4f;
+  --line: #e5dfd4;
+  --radius: 3px;
   --font-display: Georgia, 'Times New Roman', serif;
-  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Code', 'Courier New', monospace;
+  --font-body: Georgia, 'Times New Roman', serif;
+  --font-label: 'Avenir Next', 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
 * {
@@ -34,33 +29,34 @@ body {
   font-family: var(--font-body);
   background: var(--paper);
   color: var(--ink);
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: 17.5px;
+  line-height: 1.75;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.15;
+  letter-spacing: -0.01em;
   color: var(--ink);
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.6rem;
 }
 
-h1 { font-size: clamp(2.1rem, 5vw, 3.2rem); }
+h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); }
 h2 { font-size: clamp(1.5rem, 3.5vw, 2rem); }
-h3 { font-size: 1.25rem; }
+h3 { font-size: 1.3rem; }
 
-p { margin: 0 0 1.1em; }
+p { margin: 0 0 1.2em; }
 
 a {
-  color: var(--rose-deep);
-  text-decoration-thickness: 2px;
+  color: var(--ink);
+  text-decoration-thickness: 1px;
   text-underline-offset: 3px;
-  text-decoration-color: var(--rose);
+  text-decoration-color: var(--clay);
 }
 
-a:hover { color: var(--lilac); text-decoration-color: var(--lilac); }
+a:hover { color: var(--clay); }
 
 img {
   max-width: 100%;
@@ -71,127 +67,135 @@ img {
 .container {
   max-width: 1040px;
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 0 1.5rem;
 }
 
 .prose {
-  max-width: 680px;
+  max-width: 660px;
   margin: 0 auto;
 }
 
-.prose h2 { margin-top: 2.2rem; }
-
-.prose h2::before {
-  content: '✳ ';
-  color: var(--rose);
+.prose h2 {
+  margin-top: 2.6rem;
 }
 
 .prose blockquote {
-  border-left: 4px solid var(--lilac);
-  background: var(--lilac-soft);
-  border-radius: 0 var(--radius) var(--radius) 0;
-  margin: 1.5rem 0;
-  padding: 0.75rem 1.25rem;
-  color: var(--ink);
+  border-left: 2px solid var(--clay);
+  margin: 1.75rem 0;
+  padding: 0.2rem 0 0.2rem 1.4rem;
   font-style: italic;
+  color: var(--ink-soft);
 }
 
-.prose ul li { margin-bottom: 0.4rem; }
-
-.prose ul li::marker { color: var(--rose); }
+.prose ul li { margin-bottom: 0.45rem; }
 
 .eyebrow {
-  display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
+  display: block;
+  font-family: var(--font-label);
+  font-size: 0.72rem;
   font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: lowercase;
-  color: var(--rose-deep);
-  background: var(--butter);
-  padding: 0.15rem 0.7rem;
-  border-radius: 999px;
-  margin-bottom: 0.85rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 1rem;
 }
 
 .tag {
   display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 0.2rem 0.7rem;
-  border-radius: 999px;
-  background: var(--mint);
-  border: 1px dashed rgba(64, 57, 74, 0.25);
-  color: var(--ink);
-  margin-right: 0.4rem;
+  font-family: var(--font-label);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--ink-soft);
+  margin-right: 0.45rem;
 }
 
 .btn {
   display: inline-block;
   background: var(--ink);
   color: var(--paper);
+  font-family: var(--font-label);
+  font-size: 0.78rem;
   font-weight: 600;
-  padding: 0.7rem 1.5rem;
-  border-radius: 999px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 0.85rem 1.8rem;
+  border-radius: var(--radius);
   border: none;
-  font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
-  transition: background 0.15s ease, transform 0.15s ease;
+  transition: background 0.15s ease;
 }
 
-.btn:hover {
-  background: var(--rose-deep);
-  color: var(--paper);
-  transform: rotate(-1deg);
-}
+.btn:hover { background: var(--clay); color: var(--paper); }
 
 .card {
-  background: var(--card);
-  border: 1.5px solid var(--line);
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: 4px 4px 0 var(--lilac-soft);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.card:hover {
-  transform: translateY(-4px) rotate(-0.6deg);
-  box-shadow: 6px 8px 0 var(--mint);
+  background: transparent;
 }
 
 .card a { text-decoration: none; color: inherit; }
 
-.card-body { padding: 1.1rem 1.25rem 1.35rem; }
-
-.card-meta {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
-  color: var(--ink-soft);
-  margin-bottom: 0.45rem;
+.card img {
+  display: block;
+  transition: opacity 0.2s ease;
 }
 
-.card h3 { margin-bottom: 0.4rem; }
+.card a:hover img { opacity: 0.85; }
 
-.card p { color: var(--ink-soft); font-size: 0.95rem; margin: 0; }
+.card a:hover h3 { color: var(--clay); }
+
+.card-body { padding: 1.1rem 0 0; }
+
+.card-meta {
+  font-family: var(--font-label);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 0.55rem;
+}
+
+.card h3 {
+  margin-bottom: 0.45rem;
+  transition: color 0.15s ease;
+}
+
+.card p {
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  margin: 0;
+}
 
 .grid {
   display: grid;
-  gap: 1.75rem;
+  gap: 2.75rem 2.25rem;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 
-.section { padding: 3.5rem 0; }
+.section { padding: 4rem 0; }
 
 .date {
-  font-family: var(--font-mono);
+  font-family: var(--font-label);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
   color: var(--ink-soft);
-  font-size: 0.82rem;
+}
+
+.rule {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 0;
 }
 
 @media (max-width: 640px) {
-  body { font-size: 16px; }
-  .section { padding: 2.25rem 0; }
+  body { font-size: 16.5px; }
+  .section { padding: 2.5rem 0; }
 }
