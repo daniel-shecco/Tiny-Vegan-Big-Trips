@@ -1,0 +1,57 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`About — ${SITE_TITLE}`}
+      description="Who we are and why we drag a vegan toddler around the world."
+    />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="container prose section">
+        <span class="eyebrow">About us</span>
+        <h1>Hi, we're the family behind the tiny vegan.</h1>
+        <p>
+          <em
+            >[Your story goes here — this placeholder shows the shape of a
+            good about page.]</em
+          >
+        </p>
+        <p>
+          We're a vegan family who refused to accept that having a toddler
+          means eating at the hotel buffet forever. Since our kid could sit
+          in a carrier we've been hunting down the best plant-based food,
+          the friendliest cafés, and the neighborhoods where a stroller and
+          good taste can coexist.
+        </p>
+        <p>
+          Everything on this site is field-tested: every restaurant was
+          eaten at, every flight survived, every snack spilled on. No
+          press-trip fluff — if a city was hard, we say so.
+        </p>
+        <h2>What you'll find here</h2>
+        <ul>
+          <li>Destination guides for vegan families, city by city</li>
+          <li>Flight and packing playbooks that actually work</li>
+          <li>Supermarket cheat sheets: accidentally-vegan snacks by country</li>
+          <li>The good coffee, always</li>
+        </ul>
+        <h2>Say hi</h2>
+        <p>
+          The fastest way to reach us is Instagram, or reply to any email
+          from the newsletter. We read everything.
+        </p>
+      </div>
+    </main>
+    <Newsletter />
+    <Footer />
+  </body>
+</html>

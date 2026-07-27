@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+  <defs>
+    <linearGradient id="london" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe8f2"/>
+      <stop offset="1" stop-color="#eae4f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#london)"/>
+  <ellipse cx="180" cy="110" rx="85" ry="26" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="560" cy="80" rx="70" ry="22" fill="#ffffff" opacity="0.75"/>
+  <circle cx="640" cy="230" r="85" fill="none" stroke="#e8a4a4" stroke-width="10" opacity="0.8"/>
+  <circle cx="640" cy="230" r="8" fill="#e8a4a4"/>
+  <text x="300" y="310" font-size="95" text-anchor="middle">🚌</text>
+  <text x="400" y="390" font-size="28" text-anchor="middle" fill="#40394a" font-family="Georgia, serif">placeholder — your photo here</text>
+</svg>
