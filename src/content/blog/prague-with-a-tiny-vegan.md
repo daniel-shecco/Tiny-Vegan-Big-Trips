@@ -78,14 +78,15 @@ bottle of red and a bowl of truffle popcorn, and remembered we were
 people. If you get one sleeping-toddler evening in Prague, spend it
 here.
 
-## Still on our list
+## More on our list
 
-Prague gave us more saves than nap schedules allowed: **Střecha** (the
-fully vegan spot doing Czech classics), **Lumia Gallery** (immersive
-digital art), the **National Technical Museum** (a hall full of planes
-and vintage cars that sounds toddler-lethal in the best way), and
-**Sibeeria Tap Room** for the craft beer department. Consider them
-scouted, not reviewed — and consider us already planning the rematch.
+Prague gave us more good moments than one post can hold, so in the
+interest of you finishing this before your own toddler wakes up, the
+short version: **Střecha** (fully vegan Czech classics), **Lumia
+Gallery** (immersive digital art), the **National Technical Museum**
+(a hall full of planes and vintage cars), and **Sibeeria Tap Room**
+(the craft beer department). All enjoyed, none regretted — they just
+didn't make the director's cut.
 
 ## The verdict
 
