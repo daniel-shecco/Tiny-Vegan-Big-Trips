@@ -2,7 +2,7 @@
 title: 'Prague in January with a Tiny Vegan: LEGO, Svíčková & One Perfect Bottle of Red'
 description: 'Freezing outside, glorious inside — how we did Prague in winter with a vegan toddler, and the lunch he ate faster than we could photograph.'
 pubDate: '2026-07-28'
-heroImage: '/heroes/prague.svg'
+heroImage: '/images/prague/prague-winter.jpg'
 destination: 'Prague, Czechia'
 tags: ['destination guide', 'europe', 'winter']
 ---
@@ -32,6 +32,9 @@ Luca's standing order: an **oat babyccino and a cardamom bun**, consumed
 with the unhurried confidence of a true Scandinavian hipster. He's two.
 He has a coffee order. We accept our share of the blame.
 
+![A vegan cinnamon bun with icing at KRAFIN, with a small hand reaching in to claim it](/images/prague/krafin-cinnamon-bun.jpg)
+*Exhibit A. Note the incoming hand — this bun's fate was sealed on arrival.*
+
 ## The lunch that made the trip
 
 **CHUTNEJ** — fully vegan, and one of those rare places that manages to
@@ -52,6 +55,12 @@ No leftovers. Not even for the parent tax.
   time, when Luca had to be extracted in what witnesses would describe
   as a full diplomatic incident. If your child leaves this place
   voluntarily, please write in and tell us how.
+
+  ![A LEGO model of St. Basil's Cathedral at the Museum of Bricks in Prague](/images/prague/lego-cathedral.jpg)
+
+  ![A LEGO model of the Sparta Prague football stadium, complete with minifigure crowd](/images/prague/lego-stadium.jpg)
+  *A LEGO St. Basil's Cathedral and a fully attended LEGO football match. You start to see why extraction talks failed.*
+
 - **LEVELS Prague** — the January jackpot. Mini golf, bowling, arcade
   games, and somehow *four to five hours* evaporated while it was
   freezing outside. Genius detail for parents: every floor has a
