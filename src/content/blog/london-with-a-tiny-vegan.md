@@ -89,12 +89,13 @@ upstairs are a toddler amusement ride in themselves), and budget extra
 time for everything. London, you're a wonderful city with free
 museums; sort your stations out.
 
-## Also on our list
+## Been there, had fun — but you've read about these in ten other blogs
 
-Our saves also included
+We also ate well at
 **[Unity Diner](https://maps.google.com/?q=Unity+Diner+London)** and
-**[Dauns](https://maps.google.com/?q=Dauns+London)** — both come with
-sterling reputations and are well covered by the rest of the internet.
+**[Dauns](https://maps.google.com/?q=Dauns+London)** — both worth your
+time, both thoroughly documented by the rest of the internet, so we'll
+leave you in their capable hands.
 
 ## The verdict
 
