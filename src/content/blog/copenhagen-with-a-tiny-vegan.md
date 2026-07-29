@@ -68,6 +68,14 @@ delivery system and a pilgrimage site for the rest of us.
   — an awesome experience, full stop. The building alone (that great
   tilted cylinder on the lake) is worth the walk, and inside, the dome
   show had all three of us equally hypnotized.
+- **[Skydebanehaven](https://maps.google.com/?q=Skydebanehaven+Absalonsgade+12+Copenhagen)**
+  — a really lovely outdoor playground in Vesterbro, entered through
+  what appears to be a full fairytale castle wall, because Copenhagen
+  doesn't do anything halfway. Cost of admission: zero kroner, the
+  city's rarest price.
+
+![The turreted red-brick castle wall at the entrance to Skydebanehaven playground in Vesterbro, Copenhagen](/images/copenhagen/skydebanehaven.jpg)
+*Skydebanehaven: behind this castle wall is, of course, a playground.*
 
 ![The Copenhagen Planetarium, a tilted brick cylinder with a blue zigzag crown](/images/copenhagen/planetarium.jpg)
 *The Planetarium: part observatory, part spaceship, fully approved.*
