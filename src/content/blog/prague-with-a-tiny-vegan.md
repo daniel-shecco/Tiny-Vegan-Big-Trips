@@ -22,7 +22,7 @@ convoy. Quiet streets, real bakeries, actual Czech people.
 
 ## Where the mornings started
 
-**KRAFIN Café & Bakery** — a hidden local spot well out of the tourist
+**[KRAFIN Café & Bakery](https://maps.google.com/?q=KRAFIN+Caf%C3%A9+%26+Bakery+Prague)** — a hidden local spot well out of the tourist
 center, and the reason we got out of bed with something resembling
 enthusiasm. Serious coffee, a counter of vegan pastries, and the kind of
 calm interior that makes you briefly believe you're a person who has
@@ -37,7 +37,7 @@ He has a coffee order. We accept our share of the blame.
 
 ## The lunch that made the trip
 
-**CHUTNEJ** — fully vegan, and one of those rare places that manages to
+**[CHUTNEJ](https://maps.google.com/?q=CHUTNEJ+Prague)** — fully vegan, and one of those rare places that manages to
 feel genuinely high-class while still being unbothered by the presence of
 a toddler. That balance basically doesn't exist. Treasure it.
 
@@ -52,7 +52,7 @@ No leftovers. Not even for the parent tax.
 
 ## The attractions, rated by a toddler
 
-- **Museum of Bricks** — a museum full of LEGO, which to a toddler is
+- **[Museum of Bricks](https://maps.google.com/?q=Museum+of+Bricks+Prague)** — a museum full of LEGO, which to a toddler is
   less a museum and more a religious site. Verdict: loved it, we loved
   it, everyone loved it — which became a problem at closing-the-visit
   time, when Luca had to be extracted in what witnesses would describe
@@ -64,7 +64,7 @@ No leftovers. Not even for the parent tax.
   ![A LEGO model of the Sparta Prague football stadium, complete with minifigure crowd](/images/prague/lego-stadium.jpg)
   *A LEGO St. Basil's Cathedral and a fully attended LEGO football match. You start to see why extraction talks failed.*
 
-- **LEVELS Prague** — the January jackpot. Mini golf, bowling, arcade
+- **[LEVELS Prague](https://maps.google.com/?q=LEVELS+Prague)** — the January jackpot. Mini golf, bowling, arcade
   games, and somehow *four to five hours* evaporated while it was
   freezing outside. Genius detail for parents: every floor has a
   cocktail bar, so childhood joy and adult sanity can be maintained on
@@ -74,7 +74,7 @@ No leftovers. Not even for the parent tax.
 
 ## The parents' evening
 
-**Bokovka**, a small wine bar, was the trip's quiet masterpiece. Luca
+**[Bokovka](https://maps.google.com/?q=Bokovka+Prague)**, a small wine bar, was the trip's quiet masterpiece. Luca
 fell asleep in the stroller one evening and we did what any reasonable
 parents would do: rolled him gently into a corner, ordered a proper
 bottle of red and a bowl of truffle popcorn, and remembered we were
@@ -85,9 +85,13 @@ here.
 
 Prague gave us more good moments than one post can hold, so in the
 interest of you finishing this before your own toddler wakes up, the
-short version: **Střecha** (fully vegan Czech classics), **Lumia
-Gallery** (immersive digital art), the **National Technical Museum**
-(a hall full of planes and vintage cars), and **Sibeeria Tap Room**
+short version: **[Střecha](https://maps.google.com/?q=St%C5%99echa+Prague)**
+(fully vegan Czech classics),
+**[Lumia Gallery](https://maps.google.com/?q=Lumia+Gallery+Prague)**
+(immersive digital art), the
+**[National Technical Museum](https://maps.google.com/?q=National+Technical+Museum+Prague)**
+(a hall full of planes and vintage cars), and
+**[Sibeeria Tap Room](https://maps.google.com/?q=Sibeeria+Tap+Room+Prague)**
 (the craft beer department). All enjoyed, none regretted — they just
 didn't make the director's cut.
 
