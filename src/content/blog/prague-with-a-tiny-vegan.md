@@ -47,6 +47,9 @@ a bread dumpling. This is the most Czech dish there is, veganized, and he
 polished the plate with the focus of a man settling a personal score.
 No leftovers. Not even for the parent tax.
 
+![Vegan svíčková at CHUTNEJ: bread dumplings, creamy root-vegetable sauce, baked tofu and glazed vegetables](/images/prague/chutnej-svickova.jpg)
+*The svíčková, photographed in its brief window of existence. Photo courtesy of CHUTNEJ.*
+
 ## The attractions, rated by a toddler
 
 - **Museum of Bricks** — a museum full of LEGO, which to a toddler is
