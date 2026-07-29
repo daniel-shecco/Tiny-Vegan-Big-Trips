@@ -14,30 +14,32 @@ options, nobody blinks. In practice we found two big asterisks — one
 about the food, one about getting anywhere with a stroller. Both below,
 because that's what this blog is for.
 
-## The food: hunt the independents
+## The food: chains all the way down
 
 Here's the thing nobody tells you: London's vegan abundance is mostly
-*chain* abundance. Finding authentic food that isn't part of a group
-with fourteen locations takes actual work. These three made the work
-worth it:
+*chain* abundance. We went looking for independents, and we kept
+discovering that even the places we genuinely liked had four more
+branches hiding behind them. Final count of true independents found in
+an entire trip: **one**.
 
 - **[Merkamo Vegan](https://maps.google.com/?q=Merkamo+Vegan+London)** —
-  an amazing fully vegan Ethiopian restaurant with an owner so lovely we
-  stayed talking long after the injera was gone. This is the meal we
-  measure the trip by: generous, personal, completely unlike anything a
-  chain will ever serve you.
+  the one. An amazing fully vegan Ethiopian restaurant with an owner so
+  lovely we stayed talking long after the injera was gone. This is the
+  meal we measure the trip by: generous, personal, completely unlike
+  anything a chain will ever serve you. Protect this place at all
+  costs.
 - **[Tofu Vegan](https://maps.google.com/?q=Tofu+Vegan+Spitalfields+London)**
-  (Spitalfields) — really nice Chinese food, and a properly good mapo
-  tofu. The staff handed Luca a set of children's chopsticks with a
-  rubber band holding them together, and our not-yet-three-year-old —
-  to widespread astonishment, his own included — actually ate with
-  them. A restaurant that engineers a toddler's finest motor-skills
-  hour deserves your money.
+  (Spitalfields) — yes, also a chain, we checked later. The mapo tofu
+  doesn't care: it's properly good. And the staff handed Luca a set of
+  children's chopsticks with a rubber band holding them together, with
+  which our not-yet-three-year-old — to widespread astonishment, his
+  own included — actually ate. A restaurant that engineers a toddler's
+  finest motor-skills hour deserves your money, franchised or not.
 - **[Mildreds](https://maps.google.com/?q=Mildreds+Soho+London)** (Soho)
-  — the classy brunch. We deployed the nap-time trick: time the
-  stroller nap for the reservation, roll in with a sleeping child, and
-  enjoy a civilized meal like people in a previous life. Ten out of
-  ten, will scheme again.
+  — a chain by technicality, a classy brunch by results. We deployed
+  the nap-time trick: time the stroller nap for the reservation, roll
+  in with a sleeping child, and enjoy a civilized meal like people in
+  a previous life. Ten out of ten, will scheme again.
 
 ![The vegan injera platter at Merkamo, arranged like a sundial in a woven basket](/images/london/merkamo-platter.jpg)
 *The Merkamo platter. It did not survive the conversation.*
