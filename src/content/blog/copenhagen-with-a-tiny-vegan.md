@@ -30,9 +30,8 @@ holds its own in a city that takes coffee personally.
 
 For the record of history: Luca ate **two cardamom buns**. Then he
 requested to "taste" ours, which is how two adults ended up splitting
-one bun between them like wartime rationing while the smallest member
-of the party finished his second. His cardamom bun era, which began in
-Prague, shows no signs of slowing.
+one bun between them like wartime rationing while a three-year-old
+finished his second. His cardamom bun era shows no signs of slowing.
 
 ## The rest of the eating
 
