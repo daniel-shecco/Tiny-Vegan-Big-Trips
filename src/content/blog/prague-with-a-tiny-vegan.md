@@ -29,8 +29,9 @@ calm interior that makes you briefly believe you're a person who has
 their life together.
 
 Luca's standing order: an **oat babyccino and a cardamom bun**, consumed
-with the unhurried confidence of a true Scandinavian hipster. He's two.
-He has a coffee order. We accept our share of the blame.
+with the unhurried confidence of a true Scandinavian hipster. He's
+three and a half. He has a coffee order. We accept our share of the
+blame.
 
 ![A vegan cinnamon bun with icing at KRAFIN, with a small hand reaching in to claim it](/images/prague/krafin-cinnamon-bun.jpg)
 *Exhibit A. Note the incoming hand — this bun's fate was sealed on arrival.*
