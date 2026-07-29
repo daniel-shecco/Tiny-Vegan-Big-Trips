@@ -22,7 +22,8 @@ const posts = (await getCollection('blog')).sort(
   <body>
     <Header />
     <main>
-      <div class="container section">
+      <section class="section">
+        <div class="container">
         <span class="eyebrow">All guides</span>
         <h1>The archive</h1>
         <div class="grid" style="margin-top: 2rem;">
@@ -54,7 +55,8 @@ const posts = (await getCollection('blog')).sort(
             ))
           }
         </div>
-      </div>
+        </div>
+      </section>
     </main>
     <Newsletter />
     <Footer />
