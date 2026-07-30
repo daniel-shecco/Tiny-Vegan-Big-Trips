@@ -1,8 +1,11 @@
 ---
 /*
-  Placeholder newsletter signup. Point the form action at your email
-  provider (Kit, Buttondown, MailerLite…) once you have an account.
+  Newsletter signup, wired to Kit (form 9744194).
+  Posts directly to Kit's endpoint; JS enhances with an inline success
+  state, and falls back to a normal POST (Kit-hosted confirmation page)
+  if fetch fails.
 */
+const KIT_FORM_ACTION = 'https://app.kit.com/forms/9744194/subscriptions';
 ---
 
 <section id="newsletter" class="signup">
@@ -15,12 +18,49 @@
         every flight. Join the list and it's yours.
       </p>
     </div>
-    <form action="#" method="post" onsubmit="alert('Hook me up to a real email provider!'); return false;">
-      <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address" />
+    <form action={KIT_FORM_ACTION} method="post" data-newsletter>
+      <input
+        type="email"
+        name="email_address"
+        placeholder="you@example.com"
+        required
+        aria-label="Email address"
+      />
       <button class="btn" type="submit">Subscribe</button>
+      <p class="form-note" data-note hidden></p>
     </form>
   </div>
 </section>
+
+<script is:inline>
+  const form = document.querySelector('form[data-newsletter]');
+  if (form) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const note = form.querySelector('[data-note]');
+      const button = form.querySelector('button');
+      button.disabled = true;
+      button.textContent = 'Subscribing…';
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' },
+        });
+        if (!res.ok) throw new Error('subscribe failed');
+        form.querySelector('input').hidden = true;
+        button.hidden = true;
+        note.textContent =
+          'Done — now check your inbox and confirm your subscription.';
+        note.hidden = false;
+      } catch {
+        // Fall back to a regular POST (Kit's hosted confirmation page)
+        form.removeEventListener('submit', () => {});
+        form.submit();
+      }
+    });
+  }
+</script>
 
 <style>
   .signup {
@@ -48,6 +88,12 @@
     font-family: var(--font-label);
   }
   input:focus { outline: 1px solid var(--clay); border-color: var(--clay); }
+  .form-note {
+    width: 100%;
+    font-family: var(--font-label);
+    font-size: 0.9rem;
+    color: var(--ink) !important;
+  }
   @media (max-width: 720px) {
     .inner { grid-template-columns: 1fr; }
   }
