@@ -51,7 +51,9 @@ const KIT_FORM_ACTION = 'https://app.kit.com/forms/9744194/subscriptions';
         form.querySelector('input').hidden = true;
         button.hidden = true;
         note.textContent =
-          'Done — now check your inbox and confirm your subscription.';
+          'Done — now check your inbox and confirm your subscription. ' +
+          'No email after a minute or two? Check your spam folder — ' +
+          'first-time emails sometimes hide there.';
         note.hidden = false;
       } catch {
         // Fall back to a regular POST (Kit's hosted confirmation page)
