@@ -14,6 +14,14 @@ options, nobody blinks. In practice we found two big asterisks — one
 about the food, one about getting anywhere with a stroller. Both below,
 because that's what this blog is for.
 
+## Where we stayed
+
+An Airbnb on **India Street, right by Aldgate station** — and that
+station proximity turned out to be the whole game. Reasonably priced
+(grade London on a curve), well connected in every direction, and close
+enough to the City that early-morning streets were blissfully empty.
+No complaints; would base there again.
+
 ## The food: chains all the way down
 
 Here's the thing nobody tells you: London's vegan abundance is mostly
@@ -90,6 +98,19 @@ you build your day, favor buses (level boarding, and the front seats
 upstairs are a toddler amusement ride in themselves), and budget extra
 time for everything. London, you're a wonderful city with free
 museums; sort your stations out.
+
+## The crowds
+
+One more thing we weren't prepared for: London is *crowded*.
+Everywhere. At every hour of the day, for no discernible reason — a
+random Tuesday at 3pm looks like a festival is letting out. With a
+stroller and a small human, we found the sheer density of people
+genuinely overwhelming at times.
+
+And yet — it cuts both ways. All those people give London a hum no
+other city we've visited quite has: the constant sense that something
+is happening on every street, all at once, and you're welcome to wander
+into any of it. Exhausting and electric in the same breath.
 
 ## Been there, had fun — but you've read about these in ten other blogs
 
