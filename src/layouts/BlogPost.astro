@@ -10,11 +10,35 @@ type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, destination, tags } =
   Astro.props;
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  description,
+  datePublished: pubDate.toISOString(),
+  ...(updatedDate && { dateModified: updatedDate.toISOString() }),
+  ...(heroImage && { image: new URL(heroImage, Astro.site).toString() }),
+  ...(destination && { contentLocation: { '@type': 'Place', name: destination } }),
+  keywords: tags.join(', '),
+  author: {
+    '@type': 'Organization',
+    name: 'Tiny Vegan, Big Trips',
+    url: Astro.site?.toString(),
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Tiny Vegan, Big Trips',
+    url: Astro.site?.toString(),
+  },
+  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
+});
 ---
 
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} image={heroImage} />
+    <script type="application/ld+json" set:html={schema} />
   </head>
   <body>
     <Header />

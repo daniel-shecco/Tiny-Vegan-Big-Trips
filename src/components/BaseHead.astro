@@ -10,6 +10,15 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, image = '/og-default.svg' } = Astro.props;
+
+const siteSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE_TITLE,
+  url: Astro.site?.toString(),
+  description:
+    'Honest, field-tested guides for traveling Europe with a vegan child — vegan food, kid-friendly attractions, stroller accessibility, by a vegan family from Vienna.',
+});
 ---
 
 <meta charset="utf-8" />
@@ -42,3 +51,5 @@ const { title, description, image = '/og-default.svg' } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+<script type="application/ld+json" set:html={siteSchema} />
