@@ -8,8 +8,16 @@ import FormattedDate from '../components/FormattedDate.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage, destination, tags } =
-  Astro.props;
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  heroImage,
+  heroCredit,
+  destination,
+  tags,
+} = Astro.props;
 
 const schema = JSON.stringify({
   '@context': 'https://schema.org',
@@ -48,6 +56,7 @@ const schema = JSON.stringify({
           heroImage && (
             <div class="container hero-image">
               <img src={heroImage} alt="" width="1020" height="480" />
+              {heroCredit && <p class="hero-credit">{heroCredit}</p>}
             </div>
           )
         }
@@ -89,6 +98,14 @@ const schema = JSON.stringify({
     width: 100%;
     object-fit: cover;
     max-height: 440px;
+  }
+  .hero-credit {
+    margin: 0.6rem 0 0;
+    font-family: var(--font-label);
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    color: var(--ink-soft);
+    text-align: right;
   }
   .title {
     padding: 2rem 0 1.25rem;
